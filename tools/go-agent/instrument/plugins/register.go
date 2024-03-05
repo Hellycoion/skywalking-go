@@ -18,7 +18,6 @@
 package plugins
 
 import (
-	traceactivation "github.com/apache/skywalking-go/plugin/trace"
 	"github.com/apache/skywalking-go/plugins/amqp"
 	"github.com/apache/skywalking-go/plugins/core/instrument"
 	"github.com/apache/skywalking-go/plugins/dubbo"
@@ -42,6 +41,7 @@ import (
 	runtime_metrics "github.com/apache/skywalking-go/plugins/runtimemetrics"
 	sql_entry "github.com/apache/skywalking-go/plugins/sql/entry"
 	sql_mysql "github.com/apache/skywalking-go/plugins/sql/mysql"
+	traceactivation "github.com/apache/skywalking-go/plugins/trace-activation"
 )
 
 var instruments = make([]instrument.Instrument, 0)

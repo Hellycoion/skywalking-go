@@ -1,4 +1,4 @@
-module github.com/apache/skywalking-go/plugin/trace
+module github.com/apache/skywalking-go/plugins/trace-activation
 
 go 1.18
 
